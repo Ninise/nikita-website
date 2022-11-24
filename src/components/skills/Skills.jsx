@@ -2,6 +2,7 @@ import React from "react";
 import { Frontend } from "./Frontend";
 import { Backend } from "./Backend";
 import './skills.css';
+import { Mobile } from "./Mobile";
 
 
 export const Skills = () => {
@@ -12,8 +13,10 @@ export const Skills = () => {
             <span className="section__subtitle">My technical level</span>
 
             <div className="skills__container container grid">
-                <Frontend />
+                <Mobile />
                 <Backend />
+                <Frontend />
+                
             </div>
         </section>
     )
