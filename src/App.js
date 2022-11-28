@@ -9,6 +9,7 @@ import { Qualification } from './components/qualification/Qualification';
 import { Testimonials } from './components/testimotions/Testimonials';
 import { Contact } from './components/contact/Contact';
 import { Footer } from './components/footer/Footer';
+import { ScrollUp } from './components/scrollup/ScrollUp';
 
 export const App = () => {
   return (
@@ -22,8 +23,9 @@ export const App = () => {
         <Qualification />
         <Testimonials />
         <Contact />
-        <Footer />
       </main>
+      <Footer />
+      <ScrollUp />
     </div>
   );
 }
