@@ -6,7 +6,7 @@ import { Home } from './components/home/Home';
 import { Skills } from './components/skills/Skills';
 import { Services } from './components/services/Services';
 import { Qualification } from './components/qualification/Qualification';
-import { Testimonials } from './components/testimotions/Testimonials';
+import { Testimonials } from './components/testimotions/Testimonial';
 import { Contact } from './components/contact/Contact';
 import { Footer } from './components/footer/Footer';
 import { ScrollUp } from './components/scrollup/ScrollUp';
