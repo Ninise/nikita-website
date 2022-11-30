@@ -43,7 +43,7 @@ export const Mobile = () => {
 
                     <div>
                         <h3 className="skills__name">iOS</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <span className="skills__level">Advanced</span>
                     </div>
                 </div>
 
@@ -61,8 +61,8 @@ export const Mobile = () => {
                     <i className="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills__name">Cocoa Pods</h3>
-                        <span className="skills__level">Basic</span>
+                        <h3 className="skills__name">Firebase</h3>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
             </div>

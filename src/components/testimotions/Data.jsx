@@ -6,22 +6,22 @@ export const Data = [
     {
         id: 1,
         image: Image1,
-        title: "John Doe",
+        title: "Dmitry Glaskó",
         description:
-          "A really good job, all aspects of the project were followed step by step and with good results.",
+          "Thanks for the great work! Nikita is a high level professional Android developer. Project completed on time, with good quality. Highly recommend!",
       },
       {
         id: 2,
         image: Image2,
-        title: "Harry Clinton",
+        title: "John Hovis",
         description:
-          "A really good job, all aspects of the project were followed step by step and with good results.",
+          "Nikita is not one of the best developers I have worked with, he is the best. Nikita took on an extremely complex project. It was a pleasure to work with that pal! ",
       },
       {
         id: 3,
         image: Image3,
-        title: "Sara Cill",
+        title: "Ivan Sarana",
         description:
-          "A really good job, all aspects of the project were followed step by step and with good results.",
+          "Nikita has done an awesome Job, we're happy with the results and his way of working.",
       },
 ]

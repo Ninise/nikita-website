@@ -43,7 +43,7 @@ export const Services = () => {
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Web page development</p>
+                                    <p className="services__modal-info">Deployment to the AppStore/Google Play.</p>
                                 </li>
                             </ul>
                         </div>
@@ -63,22 +63,22 @@ export const Services = () => {
                         <div className="services__modal-content">
                             <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
                             <h3 className="services__modal-title">Backend Developer</h3>
-                            <p className="services__modal-description">Service with more than 3 years of experience. Providing quality work to clients and companies.</p>
+                            <p className="services__modal-description">I've been working on a big project for a social network. Personally, implemented 100+ requests and build complex MongoDB queries.</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">iOS App development</p>
+                                    <p className="services__modal-info">Build a NodeJS server.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Android App development</p>
+                                    <p className="services__modal-info">Create the architecture and hierarchy of the API.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Web page development</p>
+                                    <p className="services__modal-info">Setup and maintain a clound server.</p>
                                 </li>
                             </ul>
                         </div>
@@ -98,22 +98,22 @@ export const Services = () => {
                         <div className="services__modal-content">
                             <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
                             <h3 className="services__modal-title">Frontend Developer</h3>
-                            <p className="services__modal-description">Service with more than 3 years of experience. Providing quality work to clients and companies.</p>
+                            <p className="services__modal-description">I have accomplished 5+ web projects using React. I pay attention to details and use modern solutions to satisfy clients' wishes.</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">iOS App development</p>
+                                    <p className="services__modal-info">Creating Landing pages</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Android App development</p>
+                                    <p className="services__modal-info">Creating Bussines websites</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Web page development</p>
+                                    <p className="services__modal-info">Deployment and Support</p>
                                 </li>
                             </ul>
                         </div>

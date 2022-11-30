@@ -88,7 +88,7 @@ export const Qualification = () => {
                                     <h3 className="qualification__title">Frontend development</h3>
                                     <span className="qualification__subtitle">Udemy courses</span>
                                     <div className="qualification__calendar">
-                                        <i className="uil uil-calendar-alt">2021 - 2022</i>
+                                        <i className="uil uil-calendar-alt">2021 - Present</i>
                                     </div>
                                 </div>
                             </div>
@@ -131,6 +131,29 @@ export const Qualification = () => {
                             </div>
 
                             <div className="qualification__data">
+
+                                <div>
+                                    <h3 className="qualification__title">CEO & Mobile Developer</h3>
+                                    <span className="qualification__subtitle">Starlet Software</span>
+                                    <div className="qualification__calendar">
+                                        <i className="uil uil-calendar-alt">2018 - 2019</i>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span className="qualification__rounder"></span>
+                                    <span className="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <div className="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span className="qualification__rounder"></span>
+                                    <span className="qualification__line"></span>
+                                </div>
+
                                 <div>
                                     <h3 className="qualification__title">Mobile & Backend Developer</h3>
                                     <span className="qualification__subtitle">Uplift Prayer - USA</span>
@@ -139,10 +162,7 @@ export const Qualification = () => {
                                     </div>
                                 </div>
 
-                                <div>
-                                    <span className="qualification__rounder"></span>
-                                    <span className="qualification__line"></span>
-                                </div>
+                              
                             </div>
 
                         </div>

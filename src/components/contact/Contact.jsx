@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./contact.css"
+import { Config } from '../config';
 
 export const Contact = () => {
 
@@ -9,7 +10,7 @@ export const Contact = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_fo5trhm', 'template_34ujuyf', form.current, 'pXAugLHuPh5e4dQoK')
+      emailjs.sendForm(Config.emailServiceId, Config.emailTemplateId, form.current, Config.emailKey)
         .then((result) => {
             e.target.reset();
         }, (error) => {
@@ -30,22 +31,22 @@ export const Contact = () => {
                         <div className="contact__card">
                             <i className="bx bx-mail-send contact__card-icon"></i>
                             <h3 className="contact__card-title">Email</h3>
-                            <span className="contact__card-data">user@gmail.com</span>
-                            <a href="mailto:nikitin.ninise@gmail.com" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <span className="contact__card-data">{Config.email}</span>
+                            <a href={`mailto: ${Config.email}`} className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
                         <div className="contact__card">
                             <i className="bx bxl-whatsapp contact__card-icon"></i>
                             <h3 className="contact__card-title">Whatsapp</h3>
-                            <span className="contact__card-data">999-888-777</span>
-                            <a href="https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <span className="contact__card-data">{Config.mobile}</span>
+                            <a href={`https://api.whatsapp.com/send?phone=${Config.mobile}&text=Hello`} className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
                         <div className="contact__card">
                             <i className="bx bxl-messenger contact__card-icon"></i>
                             <h3 className="contact__card-title">Messenger</h3>
-                            <span className="contact__card-data">userM112</span>
-                            <a href="https://m.me/ninise" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <span className="contact__card-data">{Config.messager}</span>
+                            <a href={`https://m.me/${Config.messager}`} className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
                     </div>
                 </div>
