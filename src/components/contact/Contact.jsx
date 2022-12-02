@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./contact.css"
-import { Config } from '../config';
+import { Config } from '../../config';
 
 export const Contact = () => {
 

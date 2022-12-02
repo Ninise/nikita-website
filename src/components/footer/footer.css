@@ -43,6 +43,11 @@
     display: inline-flex;
 }
 
+.footer__social-link-upwork {
+    font-size: 0.8rem;
+    color: var(--container-color);
+}
+
 .footer__social-link:hover {
     background-color: var(--title-color-dark);
 }
