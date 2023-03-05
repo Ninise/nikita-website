@@ -6,8 +6,8 @@ Personal web site to represent my expertise in the world wide.
 
 ## Technologies
 
-- Javascript
-- React
+[![WEB STACK](https://skills.thijs.gg/icons?i=js,html,css,react)](https://skills.thijs.gg)
+
 
 ## Screenshots
 
