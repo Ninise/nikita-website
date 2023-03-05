@@ -2,7 +2,7 @@
 
 # [Personal web site](https://ninisee.com/)
 
-Personal web site to represent my expertise in the world wide.
+Goal of the project is to represent my expertise in the world wide.
 
 ## Technologies
 
